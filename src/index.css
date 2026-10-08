@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'EB Garamond', Garamond, 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+    --font-garamond: 'EB Garamond', Garamond, 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+    --font-script: 'Caveat', cursive;
+    --font-body: 'EB Garamond', 'Alegreya', Garamond, 'Palatino Linotype', Georgia, serif;
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    font-family: var(--font-body);
+    font-size: 17.5px;
+    background-color: #D2B48C;
+    color: #000000;
+    overflow-x: hidden;
+    max-width: 100vw;
+    width: 100%;
+  }
+
+  body {
+    font-family: var(--font-body);
+    line-height: 1.6;
+    overflow-x: hidden;
+    max-width: 100vw;
+    width: 100%;
+    touch-action: pan-y;
+  }
+
+  #root {
+    overflow-x: hidden;
+    max-width: 100vw;
+    width: 100%;
+  }
+
+  ::selection {
+    background-color: #6e1919;
+    color: #ffffff;
+  }
+}
+
+.font-serif-title {
+  font-family: var(--font-serif);
+}
+
+.font-menu-serif {
+  font-family: var(--font-garamond);
+}
+
+.font-handwritten {
+  font-family: var(--font-script);
+}
+
+.font-body {
+  font-family: var(--font-body);
+}
+
+/* Hide scrollbars across all browsers while preserving scroll functionality */
+html,
+body,
+* {
+  scrollbar-width: none !important;
+  -ms-overflow-style: none !important;
+}
+
+::-webkit-scrollbar {
+  display: none !important;
+  width: 0 !important;
+  height: 0 !important;
+}

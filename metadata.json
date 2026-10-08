@@ -1,0 +1,8 @@
+{
+  "name": "Ντοματίνι - Φαΐ στο κουτί",
+  "description": "Παραδοσιακά και νέα σπιτικά μαγειρευτά φαγητά στα Ιωάννινα. Καθημερινό μενού, φρέσκα αγνά υλικά και delivery.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
